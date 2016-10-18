@@ -8,16 +8,6 @@
     background-color:#262626!important;
 }
     
-a.DocumentBreadcrumb-item {
-	color:#667079;
-    font-weight: 600;
-}
-
-a.DocumentBreadcrumb-item:hover{
-    color:#A7B4BF;    
-    border-bottom-color:transparent;    
-}
-
 /* Horizontal LINES doesnt work properly*/
 /* .Node-childrenInner:not(:empty):last-child>.Node-outer:last-child>.Node{
     padding-bottom:10px;
@@ -25,12 +15,10 @@ a.DocumentBreadcrumb-item:hover{
 } */
 
 /*INDENTING*/
-.Node {
-  	display: block;
-/*  padding-bottom:10px; */
-	position: relative;
-	
-}
+/* .Node { */
+/* changes the distance between each line */
+/*  padding-bottom:10px; */ 
+/* } */
 
 /*TITLES BOLD*/
 /*.Node.is-currentRoot > .Node-self {
@@ -43,6 +31,12 @@ a.DocumentBreadcrumb-item:hover{
 	color:#4CB9FF; /* #97FFAB for green */
 }
 
+.Node.is-checked .node-link, .Node.is-checked .node-tag, .Node.is-checked .Node-content, .Node.is-checked .Node-renderedContent {
+    /* checked internal node-link */	
+    color:#a9a9a9; 
+    text-decoration: line-through;
+
+}
 /*INTERNAL LINKS and inline images*/
 .node-inline-image,.node-link{
   	display: inline-block;
@@ -51,6 +45,7 @@ a.DocumentBreadcrumb-item:hover{
  	text-decoration: none;
   	position: relative;
  	z-index: 2;
+    
  	pointer-events: auto;
     padding: 0 5px 0 5px;
 
@@ -62,7 +57,6 @@ a.DocumentBreadcrumb-item:hover{
 	border: none;
 
 }
-
 .node-link:hover{
     background-color: #575757;
 }
