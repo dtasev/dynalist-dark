@@ -31,7 +31,7 @@
 	color:#4CB9FF; /* #97FFAB for green */
 }
 
-.Node.is-checked .node-link, .Node.is-checked .node-tag, .Node.is-checked .Node-content, .Node.is-checked .Node-renderedContent {
+.Node.is-checked .node-link, .Node.is-checked .node-tag, .Node.is-checked .node-time, .Node.is-checked .Node-content, .Node.is-checked .Node-renderedContent {
     /* checked internal node-link */	
     color:#a9a9a9; 
     text-decoration: line-through;
