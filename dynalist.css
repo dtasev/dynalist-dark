@@ -1,0 +1,93 @@
+/*EXTERNAL LINKS*/
+
+#blank-slate div ul li a {text-decoration: none;}
+  
+.Document,.Document-bottomSpace,.Document-rootNode,.is-CurrentRoot,
+.Node-zoomIcon,.Node-menuIcon,.Node-menuIcon:before, .Node-zoomIcon:before{
+    background-color:#232323!important;
+}
+    
+a.DocumentBreadcrumb-item {
+	color:#667079;
+    font-weight: 600;
+}
+
+a.DocumentBreadcrumb-item:hover{
+    color:#A7B4BF;    
+    border-bottom-color:transparent;    
+}
+
+/* Horizontal LINES*/
+/* .Node-childrenInner:not(:empty):last-child>.Node-outer:last-child>.Node{
+    padding-bottom:10px;
+    border-bottom:.1em dashed;
+} */
+
+/*INDENTING*/
+.Node {
+  	display: block;
+/*  padding-bottom:10px; */
+	position: relative;
+	
+}
+
+/*TITLES BOLD*/
+/*.Node.is-currentRoot > .Node-self {
+    font-weight: bold;
+}*/
+
+
+/*BULLETS*/
+.Node-bullet:before {
+	color:#4CB9FF; /* #97FFAB for green */
+}
+
+/*INTERNAL LINKS and inline images*/
+.node-inline-image,.node-link{
+  	display: inline-block;
+	height: 24px;
+  	line-height: 22px;
+ 	font-size: 1em;
+  	cursor: pointer;
+ 	text-decoration: none;
+  	position: relative;
+ 	z-index: 2;
+ 	pointer-events: auto;
+    padding: 0 5px 0 5px;
+
+	background-color:#525150;
+	color:#97FFAB;
+    border-radius: 2px;
+	font-weight:normal;
+
+	border: none;
+
+}
+
+
+.node-inline-image,.node-link-internal.is-displayed {
+        padding: 0 5px 0 29px;
+
+}
+
+/*TAGS*/
+.node-tag {
+
+	background-color:#525150;
+
+	color:#FF7300; /* tags color */
+    text-decoration:none;
+    border-radius: 2px;
+	font-weight:normal;
+    
+	padding-left: 5px;
+  	padding-right: 5px;
+  	padding-top: 1px;
+  	padding-bottom: 1px
+
+}
+
+/* Hover Tag Color */
+.node-tag:hover{
+	background-color:#606665;
+}
