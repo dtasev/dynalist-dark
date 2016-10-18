@@ -69,10 +69,12 @@ a.DocumentBreadcrumb-item:hover{
 
 /*TAGS*/
 .node-tag {
-
+	display: inline-block;
 	background-color:#525150;
-
-	color:#FF7300; /* tags color */
+    
+    max-width:500px; /* might not work on bigger screens */
+	
+    color:#FF7300; /* tags color */
     text-decoration:none;
     border-radius: 2px;
 	font-weight:normal;
@@ -85,6 +87,6 @@ a.DocumentBreadcrumb-item:hover{
 }
 
 /* Hover Tag Color */
-.node-tag:hover{
-	background-color:#454545;
+.node-tag:hover {
+	background-color:#575757;
 }
