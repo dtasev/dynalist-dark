@@ -1,3 +1,9 @@
+# VERSION 1.3 Bug fixes and Changes
+- Internal link text is now properly centered.
+- Completed internal link, normal link or a tag now gray out and have ~~strike through~~ formatting.
+- Multi line links now look better.
+- Improving the multi line links also makes links in titles look better, dynalist internal links still look bad in title but that's a Dynalist issue.
+
 # VERSION 1.2 Changes
 - Fixed internal Dynalist links having the symbol in front
 - Fixed long internal links not collapsing down to (...)
