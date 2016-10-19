@@ -1,4 +1,8 @@
-# VERSION 1.3 Bug fixes and Changes
+My Testing Page: https://dynalist.io/d/GXkTFJmGz378VxrS5cTnyXYU
+Now in a Git repo: https://github.com/DimitarTasev/dynalist-dark/
+
+
+# NEW VERSION 1.3 Bug fixes and Changes (Released 18.10.2016)
 - Internal link text is now properly centered.
 - Completed internal link, normal link or a tag now gray out and have ~~strike through~~ formatting.
 - Multi line links now look better.
