@@ -5,7 +5,7 @@
 .Node-zoomIcon,.Node-menuIcon,.Node-menuIcon:before, .Node-zoomIcon:before{
     background-color:#262626!important;
 }
-    
+
 /* Horizontal LINES doesnt work properly*/
 /* .Node-childrenInner:not(:empty):last-child>.Node-outer:last-child>.Node{
     padding-bottom:10px;
@@ -15,7 +15,7 @@
 /*INDENTING*/
 /* .Node { */
 /* changes the distance between each line */
-/*  padding-bottom:10px; */ 
+/*  padding-bottom:10px; */
 /* } */
 
 /*TITLES BOLD*/
@@ -30,8 +30,8 @@
 }
 
 .Node.is-checked .node-link, .Node.is-checked .node-tag, .Node.is-checked .node-time, .Node.is-checked .Node-content, .Node.is-checked .Node-renderedContent {
-    /* checked internal node-link */	
-    color:#a9a9a9; 
+    /* checked internal node-link */
+    color:#a9a9a9;
     text-decoration: line-through;
 
 }
@@ -41,9 +41,9 @@
 }
 .node-inline-image:hover{
 	background-color:#4D4D4D;
-	
+
 }
-    
+
 .node-link{
   	display: inline-block;
  	font-size: 1em;
@@ -51,7 +51,7 @@
  	text-decoration: none;
   	position: relative;
  	z-index: 2;
-    
+
  	pointer-events: auto;
     padding: 0 5px 0 5px;
 
@@ -72,14 +72,14 @@
 .node-tag {
 	display: inline-block;
 	background-color:#525150;
-    
+
     max-width:500px; /* might not work on bigger screens */
-	
-    color:#FF7300; /* tags color */
+
+    color:#ffaa00; /* tags color */
     text-decoration:none;
     border-radius: 2px;
 	font-weight:normal;
-    
+
 	padding-left: 5px;
   	padding-right: 5px;
   	padding-top: 1px;
@@ -88,4 +88,8 @@
 
 .node-tag:hover{
     background-color:#595959!important;
+}
+.node-inline-code{
+    color: #ff9cb5;
+    background-color: transparent;
 }

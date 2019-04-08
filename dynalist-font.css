@@ -1,0 +1,21 @@
+/*
+Changes the font to Fire Code Light.
+Requires the Fire Code Light font to be installed on the OS.
+*/
+
+.Node-noteContainer > .Node-renderedNote{
+  color:#e1ffce;
+font-family: "Fira Code Light";
+font-size:12px;
+}
+.Node-contentContainer > .node-line{
+font-family: "Fira Code Light";
+   font-size: 14px;
+}
+.Node-content {
+   font-family: "Fira Code Light";
+   font-size: 14px;
+}
+.DocumentContainer{
+background-color: #00000080!important;
+}
