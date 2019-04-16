@@ -3,7 +3,7 @@
 /* change the background color of the document */
 .Document,.Document-bottomSpace,.Document-rootNode,.is-CurrentRoot,
 .Node-zoomIcon,.Node-menuIcon,.Node-menuIcon:before, .Node-zoomIcon:before{
-    background-color:#262626!important;
+    background-color:#000000!important;
 }
 
 /* Horizontal LINES doesnt work properly*/
@@ -92,4 +92,8 @@
 .node-inline-code{
     color: #ff9cb5;
     background-color: transparent;
+}
+
+.DocumentContainer.is-centerDocument .Document{
+    max-width:1200px;
 }
